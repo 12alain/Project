@@ -1,0 +1,42 @@
+
+.pagination a
+{
+    color: #000;
+}
+.tt{
+    color: #000;
+}
+.tt:hover{
+    color: #d2b100;
+    transition: all 0,3s;
+}
+.pagination a:hover:not(.next)
+{
+    background-color: #000 !Important;
+    color: #d2b100;
+     border: solid 1px #000; 
+}
+.next{
+    background-color: #d2b100;
+    color: #000;
+    border: solid 1px #d2b100; 
+}
+.next:hover{
+    background-color: #d2b100;
+    color: #000;
+    border: solid 1px #d2b100; 
+}
+.section-title::after {
+    content: ' ';
+    position: absolute;
+    display: block;
+    width: 40px;
+    border: 1px solid #d2b100;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.w{
+    width: 150px;
+    
+}
